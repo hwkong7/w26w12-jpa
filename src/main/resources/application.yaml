@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: w26w12-jpa
+  profiles:
+    active: memory # memory, h2, supabase
+
+springdoc:
+  paths-to-exclude: /scalar/**
+
+scalar:
+  enabled: true
+  url: /v3/api-docs
